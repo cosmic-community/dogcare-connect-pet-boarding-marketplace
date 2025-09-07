@@ -22,10 +22,6 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <head>
-        {/* Console capture script for dashboard debugging */}
-        <script src="/dashboard-console-capture.js" />
-      </head>
       <body className={inter.className}>
         <div className="min-h-screen flex flex-col">
           <Header />
